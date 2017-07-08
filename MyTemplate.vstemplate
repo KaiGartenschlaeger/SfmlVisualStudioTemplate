@@ -1,0 +1,27 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>SFML Application (static linked)</Name>
+    <Description>A simple SFML console application with static linked libraries.</Description>
+    <ProjectType>VC</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>SFMLApplication</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="SFMLTemplate242.vcxproj" File="SFMLTemplate242.vcxproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="false" TargetFileName="$projectname$.vcxproj.filters">SFMLTemplate242.vcxproj.filters</ProjectItem>
+	  <ProjectItem ReplaceParameters="false" TargetFileName="main.cpp" OpenInEditor="true">main.cpp</ProjectItem>
+	  <ProjectItem>SFML\Colors.hpp</ProjectItem>
+	  <ProjectItem>SFML\Math\Vectors.hpp</ProjectItem>
+	  <ProjectItem>SFML\Math\Vectors.cpp</ProjectItem>
+	  <ProjectItem>Engine\Game.hpp</ProjectItem>
+	  <ProjectItem>Engine\Game.cpp</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
